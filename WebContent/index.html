@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Blog - home</title>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="home.js"></script>
+<link rel="stylesheet" href="home.css">
+</head>
+<body>
+	<header>
+		<h1>Blog</h1>
+	</header>
+
+	<section class="list">
+	</section>
+
+	<section id="inputBox">
+		<form>
+			<div id="writerDiv">
+				<label>작성자</label>
+				<input type="text" id="writer" name="writer"/>
+			</div>
+            <div id="titleDiv">
+            	<label>제목</label>
+            	<input type="text" id="title" name="title" />
+            </div>
+            <div id="contentDiv">
+            	<label>내용</label>
+            	<textarea id="content" name="content"></textarea>
+            </div>
+            <input type="submit" id="registration" value="등록"/>
+        </form>
+	</section>
+
+</body>
+</html>

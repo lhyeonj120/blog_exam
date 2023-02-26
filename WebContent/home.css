@@ -1,0 +1,99 @@
+body{
+	background: pink;
+	margin: 0;
+	padding: 10px;
+}
+
+h1{
+	margin: 0;
+	color: white;
+	padding: 20px;
+}
+
+.list{
+	margin: 20px;
+}
+
+.writing{
+	border-top: 1px solid red;
+	padding: 10px;
+	position: relative;
+}
+
+.title{
+	margin: 0;
+}
+
+.writer{
+	font-size: small;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.content{
+	margin-top: 20px;
+}
+
+#inputBox{
+	margin: 20px;
+	border: 2px solid red;
+}
+
+form{
+	padding: 20px;
+	position: relative;
+	height: 190px;
+	color: white;
+	border: none;
+	font-weight: bold;
+}
+
+#writerDiv{
+	margin: 10px;
+}
+
+#writer{
+	width: 1000px;
+	position: absolute;
+	left: 100px;
+}
+
+#titleDiv{
+	margin: 10px;
+}
+
+#title{
+	width: 1000px;
+	position: absolute;
+	left: 100px;
+}
+
+#contentDiv{
+	margin: 10px;
+}
+
+
+#content{
+	width: 1000px;
+	height: 100px;
+	position: absolute;
+	left: 100px;
+}
+
+#registration{
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	font-weight: bold;
+    color: white;
+    background: red;
+    border: none;
+    border-radius: 15px;
+    width: 50px;
+    height: 30px;
+}
+
+input[type=text], textarea{
+	border: none;
+}
